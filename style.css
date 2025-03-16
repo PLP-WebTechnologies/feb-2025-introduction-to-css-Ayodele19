@@ -1,0 +1,45 @@
+/* style.css */
+
+/* 1. Element Selector */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Class Selector */
+.section-title {
+    color: #4CAF50;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* 3. ID Selector */
+#main-image {
+    border: 4px solid #555;
+    padding: 10px;
+    margin: 20px auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+
+/* Additional Styling */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 16px;
+    margin-bottom: 15px;
+}

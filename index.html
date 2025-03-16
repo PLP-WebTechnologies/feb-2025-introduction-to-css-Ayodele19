@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Elements and Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="section-title"> Welcome to Advanced HTML5 Elements and Forms</h1>
+    </header>
+    
+    <section class="container">
+        <h2 class="section-title">Ordered List with Roman Numerals</h2>
+        <ol type="I">
+            <li>HTML Basics</li>
+            <li>CSS Styling</li>
+            <li>JavaScript Essentials</li>
+            <li>Responsive Design</li>
+            <li>Web Accessibility</li>
+        </ol>
+    </section>
+    
+    <section class="container">
+        <h2 class="section-title">External Image from Pexels</h2>
+        <img src="https://images.pexels.com/photos/30635628/pexels-photo-30635628/free-photo-of-elegant-woman-in-traditional-african-attire-outdoors.jpeg" alt="Beautiful Scenery from Pexels" width="600">
+    </section>
+    
+    <section class="container">
+        <h2 class="section-title">Contact Table</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>123 Street, NY</td>
+                <td>+123456789</td>
+                <td>johndoe@example.com</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>456 Avenue, CA</td>
+                <td>+987654321</td>
+                <td>janesmith@example.com</td>
+            </tr>
+            <tr>
+                <td>Robert Brown</td>
+                <td>789 Boulevard, TX</td>
+                <td>+555888999</td>
+                <td>robertbrown@example.com</td>
+            </tr>
+            <tr>
+                <td>Emily White</td>
+                <td>321 Road, FL</td>
+                <td>+666777888</td>
+                <td>emilywhite@example.com</td>
+            </tr>
+            <tr>
+                <td>Michael Green</td>
+                <td>654 Lane, IL</td>
+                <td>+999333111</td>
+                <td>michaelgreen@example.com</td>
+            </tr>
+        </table>
+    </section>
+    
+    <section class="container">
+        <h2 class="section-title">Registration Form</h2>
+        <form action="#" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+            
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+            
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label><br><br>
+            
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select a country</option>
+                <option value="nigeria">Nigeria</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+                <option value="canada">Canada</option>
+                <option value="australia">Australia</option>
+            </select><br><br>
+            
+            <label>Interests:</label>
+            <input type="checkbox" id="coding" name="interests" value="coding">
+            <label for="coding">Coding</label>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label>
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music">Music</label><br><br>
+            
+            <button type="submit">Register</button>
+        </form>
+    </section>
+    
+</body>
+</html>
